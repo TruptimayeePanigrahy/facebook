@@ -1,11 +1,11 @@
 let str="abcd";
 let a=""
-for(let i=0;i<str.length;i++){
+for(lel i=str.length-1;i<=0;i--){
 a=a+str[i]
 }
-if(a==atr){
-console.log("pallindrome")
+if(a==str){
+console.log("pallindrome");
 }
 else{
-conssole.log("not a pallindrom)
+conssole.log("not a pallindrom");
 }
